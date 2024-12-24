@@ -1,7 +1,8 @@
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header */}
@@ -60,4 +61,6 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
+};
+
+export default Home;
