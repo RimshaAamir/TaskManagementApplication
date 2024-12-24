@@ -7,23 +7,15 @@ const Header: React.FC = () => {
         <h1 className="text-2xl font-extrabold">TaskManager</h1>
         <nav>
           <ul className="flex space-x-6">
+            
+           
             <li>
-              <a href="#" className="hover:text-green-400 font-medium">
-                Home
+              <a href="/signup" className="hover:text-green-400 font-medium">
+                Signup
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-green-400 font-medium">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-green-400 font-medium">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+              <a href="/login" className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
                 Login
               </a>
             </li>

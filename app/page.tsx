@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 const Home: React.FC = () => {
   return (
@@ -18,9 +19,11 @@ const Home: React.FC = () => {
             Manage your tasks effectively and increase your productivity with TaskManager. A simple, intuitive tool for everyone.
           </p>
           <div className="space-x-4">
-            <button className="bg-green-500 text-white px-6 py-3 rounded-md shadow-lg hover:bg-green-600">
+            <Link href="/tasks">
+            <button  className="bg-green-500 text-white px-6 py-3 rounded-md shadow-lg hover:bg-green-600">
               Get Started
             </button>
+            </Link>
             <button className="bg-gray-200 text-gray-700 px-6 py-3 rounded-md shadow-lg hover:bg-gray-300">
               Learn More
             </button>
